@@ -1,11 +1,15 @@
 {
-  "name": "noahs-sandbox",
+  "name": "sanity-jest-example",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "An example Sanity Studio workspace with unit testing for a custom preview component.",
   "main": "package.json",
   "author": "Noah Gentile <noah@sanity.io>",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkgentile/sanity-jest-example"
+  },
   "scripts": {
     "start": "sanity start",
     "build": "sanity build",
