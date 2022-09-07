@@ -20,6 +20,13 @@ export default function PreviewComponent({ document }) {
 
 }
 
+/**
+ * 
+ * @param {Object} document
+ * @param {Object} document.published
+ * @param {Object} document.displayed
+ * @returns {boolean}
+ */
 function isDraft({ published, displayed }) {
     if (published?._rev == null && displayed?._rev == null) {
         return true;
